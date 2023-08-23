@@ -1,0 +1,32 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    margin: 1.2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+td,
+th {
+    justify-content: center;
+    align-items: center;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+button {
+    margin: 1.2rem 0;
+    width: 100%;
+}
+
+h1 {
+    margin: 1.2rem 0;
+    width: 100%;
+    text-align: center;
+}

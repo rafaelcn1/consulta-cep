@@ -1,1 +1,11 @@
-<p>consulta works!</p>
+<div class="container mat-elevation">
+    <form class="form">
+        <h1>Consulta CEP</h1>
+        <mat-form-field>
+            <mat-label>Entre com o CEP:</mat-label>
+            <input id="cepConsultado" matInput placeholder="01001000" [formControl]='cepConsultado' required maxlength="8">
+        </mat-form-field>
+
+        <button (click)="consulta()" [disabled]="!validar()" mat-raised-button color="accent">Consultar</button>
+    </form>
+</div>
